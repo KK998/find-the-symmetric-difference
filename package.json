@@ -1,0 +1,36 @@
+{
+  "name": "find-the-symmetric-difference",
+  "version": "1.0.0",
+  "description": "[FCC] Algorithm: Find the symmetric difference",
+  "main": "find-the-symmetric-difference.js",
+  "scripts": {
+    "test": "npm --no-cache ./*",
+    "watch": "jest --no-cache --watch ./*",
+    "lint": "eslint .",
+    "lint-test": "eslint . && jest --no-cache ./* "
+  },
+  "keywords": [
+    "Free",
+    "Code",
+    "Cademy"
+  ],
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "package.json"
+    ]
+  },
+  "author": "FCC - KK998",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.2",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.8",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.3",
+    "jest": "^24.8.0"
+  }
+}
